@@ -1,0 +1,44 @@
+{
+  "name": "@oke3/opencode-modelrouter",
+  "version": "0.1.0",
+  "description": "Intelligent LLM cost router for OpenCode — select the cheapest model that meets quality thresholds",
+  "type": "module",
+  "bin": {
+    "modelrouter": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepublishOnly": "bun run build && bun test"
+  },
+  "keywords": [
+    "opencode",
+    "llm",
+    "router",
+    "cost",
+    "model",
+    "proxy",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "author": "oke3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oke3/opencode-modelrouter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oke3/opencode-modelrouter/issues"
+  },
+  "homepage": "https://github.com/oke3/opencode-modelrouter#readme"
+}
