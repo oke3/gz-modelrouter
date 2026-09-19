@@ -349,6 +349,21 @@ modelrouter serve --port 4010
 - [gz-bench](https://github.com/oke3/gz-bench) — Benchmarking suite for AI coding tools
 - [gz-remote](https://github.com/oke3/gz-remote) — Drive OpenCode over SSH
 
+---
+
+## Enterprise Support
+
+Need this customized for your infrastructure? We offer:
+
+- **Integration consulting** — Wire gz-modelrouter into your LLM infrastructure
+- **Custom configuration** — Task-specific rules, models, and workflows for your team
+- **Managed deployment** — We host and maintain your instance
+- **Training workshops** — Hands-on sessions for your engineering team
+
+[Book a 30-min call](https://www.grndxero.com/brief) · [See pricing](https://www.grndxero.com/pricing)
+
+---
+
 ## License
 
 MIT — Ground Zero LLC
