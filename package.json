@@ -1,5 +1,5 @@
 {
-  "name": "@oke3/opencode-modelrouter",
+  "name": "@ground-zero-llc/gz-modelrouter",
   "version": "0.1.0",
   "description": "Intelligent LLM cost router for OpenCode — select the cheapest model that meets quality thresholds",
   "type": "module",
@@ -31,14 +31,15 @@
     "@types/node": "^22.0.0",
     "typescript": "^5.6.0"
   },
-  "author": "oke3",
+  "author": "Ground Zero LLC <hello@ground-zero.dev>",
+  "publisher": "Ground Zero LLC",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oke3/opencode-modelrouter.git"
+    "url": "git+https://github.com/oke3/gz-modelrouter.git"
   },
   "bugs": {
-    "url": "https://github.com/oke3/opencode-modelrouter/issues"
+    "url": "https://github.com/oke3/gz-modelrouter/issues"
   },
-  "homepage": "https://github.com/oke3/opencode-modelrouter#readme"
+  "homepage": "https://github.com/oke3/gz-modelrouter#readme"
 }

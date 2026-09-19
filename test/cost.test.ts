@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect } from 'bun:test'
 import { getModelCost, estimateCost, getModelsByTier, COST_TABLE, loadCostOverrides } from '../src/cost.js'
 

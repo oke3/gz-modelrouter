@@ -1,4 +1,4 @@
-# Contributing to opencode-modelrouter
+# Contributing to gz-modelrouter
 
 Thanks for your interest in contributing!
 

@@ -1,9 +1,11 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
- * @oke3/opencode-modelrouter — Intelligent LLM cost router for OpenCode.
+ * @ground-zero-llc/gz-modelrouter — Intelligent LLM cost router for OpenCode.
  *
  * @example
  * ```typescript
- * import { ModelRouter } from '@oke3/opencode-modelrouter'
+ * import { ModelRouter } from '@ground-zero-llc/gz-modelrouter'
  *
  * const router = new ModelRouter('./data')
  * const decision = router.route('autocomplete')

@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * LLM cost estimation per provider/model.
  * Rates are per 1M tokens (input/output).

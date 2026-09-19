@@ -1,10 +1,12 @@
-# opencode-modelrouter
+# gz-modelrouter
+
+> Built by [Ground Zero LLC](https://github.com/oke3) — AI infrastructure for the agentic age.
 
 Intelligent LLM cost router for OpenCode — select the cheapest model that meets quality thresholds.
 
-[![CI](https://github.com/oke3/opencode-modelrouter/actions/workflows/ci.yml/badge.svg)](https://github.com/oke3/opencode-modelrouter/actions)
-[![npm](https://img.shields.io/npm/v/@oke3/opencode-modelrouter)](https://www.npmjs.com/package/@oke3/opencode-modelrouter)
-[![license](https://img.shields.io/npm/l/@oke3/opencode-modelrouter)](https://github.com/oke3/opencode-modelrouter/blob/main/LICENSE)
+[![CI](https://github.com/oke3/gz-modelrouter/actions/workflows/ci.yml/badge.svg)](https://github.com/oke3/gz-modelrouter/actions)
+[![npm](https://img.shields.io/npm/v/@ground-zero-llc/gz-modelrouter)](https://www.npmjs.com/package/@ground-zero-llc/gz-modelrouter)
+[![license](https://img.shields.io/npm/l/@ground-zero-llc/gz-modelrouter)](https://github.com/oke3/gz-modelrouter/blob/main/LICENSE)
 
 ## Why
 
@@ -19,7 +21,7 @@ OpenCode supports 75+ providers. Teams waste money overpaying for models:
 ## Install
 
 ```bash
-npm install -g @oke3/opencode-modelrouter
+npm install -g @ground-zero-llc/gz-modelrouter
 ```
 
 ## Quick Start
@@ -72,7 +74,7 @@ modelrouter rule clear
 ## Library API
 
 ```typescript
-import { ModelRouter } from '@oke3/opencode-modelrouter'
+import { ModelRouter } from '@ground-zero-llc/gz-modelrouter'
 
 const router = new ModelRouter('./data')
 
@@ -136,10 +138,10 @@ Override with `MODELRAPPER_DATA_DIR` environment variable.
 
 ## Related Projects
 
-- [opencode-sessions](https://github.com/oke3/opencode-sessions) — Persistent cross-session memory for OpenCode agents
-- [opencode-codemap](https://github.com/oke3/opencode-codemap) — Codebase mapping for OpenCode
-- [opencode-bench](https://github.com/oke3/opencode-bench) — Benchmarking suite for OpenCode
-- [opencode-remote](https://github.com/oke3/opencode-remote) — Drive OpenCode over SSH
+- [gz-sessions](https://github.com/oke3/gz-sessions) — Persistent cross-session memory for OpenCode agents
+- [gz-codemap](https://github.com/oke3/gz-codemap) — Codebase mapping for OpenCode
+- [gz-bench](https://github.com/oke3/gz-bench) — Benchmarking suite for OpenCode
+- [gz-remote](https://github.com/oke3/gz-remote) — Drive OpenCode over SSH
 
 ## License
 

@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * HTTP proxy server that intercepts OpenCode model requests
  * and routes them to the optimal model.
