@@ -344,6 +344,7 @@ modelrouter serve --port 4010
 ## Related Projects
 
 - [gz-codemap](https://github.com/oke3/gz-codemap) — Codebase mapping for OpenCode config generation
+- [gz-gateway](https://github.com/oke3/gz-gateway) — OpenAI-compatible AI gateway — rate limiting, caching, failover, cost tracking
 - [gz-context-engine](https://github.com/oke3/gz-context-engine) — Production-grade RAG context engine
 - [gz-sessions](https://github.com/oke3/gz-sessions) — Persistent cross-session memory for agents
 - [gz-bench](https://github.com/oke3/gz-bench) — Benchmarking suite for AI coding tools
